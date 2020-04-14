@@ -18,5 +18,6 @@ void accumulate(int k) { // k具有块作用域，无链接
         subtotal += k;
         total += k;
     }
+    printf("test gcc -c partb.c -o partb2.o\n");
 }
 
